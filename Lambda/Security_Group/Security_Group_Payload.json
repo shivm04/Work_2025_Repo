@@ -1,0 +1,10 @@
+{
+  "security_group_ids": [
+    "sg-05cf0dfec51222e00",
+    "sg-0498c2a0e86966b3e",
+    "sg-0edd3d4b1a55f0f00",
+    "sg-0f192c3a3a84e5308",
+    "sg-050b8167416efabab",
+    "sg-073886c76dbe43a66"
+  ]
+}
