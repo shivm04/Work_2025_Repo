@@ -1,0 +1,29 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:ListUsers",
+        "iam:GetUser",
+        "iam:GetLoginProfile",
+        "iam:ListMFADevices",
+        "iam:ListGroups",
+        "iam:ListGroupsForUser",
+        "iam:ListAttachedGroupPolicies",
+        "iam:GetGroup"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "sts:GetCallerIdentity",
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "ses:SendRawEmail",
+      "Resource": "*"
+    },
+  ]
+}
